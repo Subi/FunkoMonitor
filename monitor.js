@@ -18,7 +18,6 @@ const options = {
     }
 }
 
-
 async function f(){ 
     const stockData = await request(options); 
     if (!stockData) return err;
@@ -34,7 +33,7 @@ async function f(){
             Product.findOne({ name: funko.name }, (err,foundProduct) => {
                 if (!foundProduct) {
                     funko.save();
-                    Notify.discord(funko.name, funko.url, funko.img);
+                    Notify.discord(funko.name, funko.url, funko.img ,);
                 }
             })
         }

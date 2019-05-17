@@ -1,10 +1,10 @@
 const webhook = require('webhook-discord');
-const info = '';
+const Config = require('./../../Config.json');
 
 const Notify = {};
 
-Notify.discord = (name , url , img) =>{
-    const Hook = new webhook.Webhook(info);
+Notify.discord = (name , url , img ,) =>{
+    const Hook = new webhook.Webhook(Config.discord.webhook_url);
     let msg = Notify.create(name, url , img);
     Hook.send(msg);
 }
