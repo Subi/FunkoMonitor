@@ -1,0 +1,8 @@
+{
+    "pollTime": 10000,
+    "url":"https://www.hottopic.com/funko/pop-vinyl/?sz=600&start=0",
+    
+    "discord":{
+        "webhook_url": ""
+    }
+}

@@ -1,0 +1,22 @@
+/* Settings Layout */
+
+body{
+    height: 100vh;
+    -webkit-app-region:drag;
+    overflow: hidden;
+}
+
+#settingLayout{
+    height: 100%;
+    background-color: #000013;
+}
+
+#logoContainer{
+    position: absolute;
+    right: 42%;
+}
+  
+
+#logo {
+    width: 35%;
+}

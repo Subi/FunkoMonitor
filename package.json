@@ -1,0 +1,25 @@
+{
+  "name": "crimstock",
+  "version": "1.0.0",
+  "description": "Funko Monitor Desktop Application.",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32  --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Crimstock\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^9.6.0",
+    "mongoose": "^5.5.8",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "webhook-discord": "^3.2.0"
+  },
+  "devDependencies": {
+    "asar": "^2.0.1",
+    "electron": "^5.0.1",
+    "electron-packager": "^13.1.1"
+  }
+}
