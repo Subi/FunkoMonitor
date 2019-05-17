@@ -25,23 +25,6 @@ https://www.mongodb.com/download-center/community
 </div>
 <img src="https://i.gyazo.com/90979f10ef6dacdcf8de3f6e1b333f77.png"
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-
 
 
 ## License
