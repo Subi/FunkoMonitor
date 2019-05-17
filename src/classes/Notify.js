@@ -1,5 +1,5 @@
 const webhook = require('webhook-discord');
-const info = 'https://discordapp.com/api/webhooks/562782204707602478/3ACIc_H_cbrKmW1cCm1GPWT5GQKiCLUg6z7RHe04AsU-M7dBPWrasOa0fV3u9L8LIeFP';
+const info = '';
 
 const Notify = {};
 
