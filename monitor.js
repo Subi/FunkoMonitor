@@ -1,17 +1,26 @@
+
+//Modules
 const cheerio = require('cheerio');
 const request = require('request-promise');
+
+//Classes and Models
 const Stock = require('.//src/classes/Stock');
 const Product = require('./models/product');
 const Notify  = require('.//src/classes/Notify');
 const Config = require('./config.json');
+
+
+// Set Url and User-Agent for request
 const options = {
     url: Config.url,
     Headers:{
         'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
     }
 }
-async function f(){
-    const stockData = await request(options);
+
+
+async function f(){ 
+    const stockData = await request(options); 
     if (!stockData) return err;
     console.log('Getting current stock..');
     let items = getItems(stockData);
@@ -26,18 +35,14 @@ async function f(){
                 if (!foundProduct) {
                     funko.save();
                     Notify.discord(funko.name, funko.url, funko.img);
-                } else {
-                    console.log("oooga");
                 }
             })
         }
     }
 }
-
  async function start() {
     on = setInterval(f ,Config.pollTime)
 }
-
 const getItems = (data) => {
     const $ = cheerio.load(data);
     const items = $('.product-tile').map((i , product) =>{
@@ -48,10 +53,8 @@ const getItems = (data) => {
         currentStock.push(newItem);
         return currentStock;
     }).get();
-
     return items;
 }
-
 const formatData = (data , imgData) =>{
     let itemName = data.text();
     let name = itemName.trim();
@@ -60,7 +63,6 @@ const formatData = (data , imgData) =>{
     let stock = new Stock(name , url , img);
     return stock;
 }
-
 const stop =()=>{
     clearInterval(on);
 }
