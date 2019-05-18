@@ -7,6 +7,12 @@ Feel free to join the discord server if you have any suggestions, questions or n
 https://discord.gg/p4jWcxS
 
 
+### Disclaimer 
+Due to the software still being tested. I was just banned from Hot topic. Currently investigating this issue , I currently was running a PollTime of 10s which might be to fast. I recommend increasing that time. 60s => 60000ms  should be good. 
+
+Utilizing proxies is another option to stop the posibility of getting banned. 
+
+
 ### Installation
 
 https://nodejs.org/ (LTS) <br>
