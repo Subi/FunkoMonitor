@@ -1,6 +1,6 @@
-# Hot Topic Funko Monitor
+# Hot Topic/Box Lunch Funko Monitor
 
-Notify user using discord webhooks to let you know of the recent drops and restocks on HotTopic.com.
+Notify user using discord webhooks to let you know of the recent drops and restocks on HotTopic.com / BoxLunch.com.
 
 ### Discord  <img src="https://www.shareicon.net/data/16x16/2017/06/21/887435_logo_512x512.png">
 Feel free to join the discord server if you have any suggestions, questions or need help! <br>
@@ -8,7 +8,7 @@ https://discord.gg/p4jWcxS
 
 
 ### Disclaimer 
-Due to the software still being tested. I was just banned from Hot topic. Currently investigating this issue , I currently was running a PollTime of 10s which might be to fast. I recommend increasing that time. 60s => 60000ms  should be good. 
+Due to the software still being tested , I was just banned from Hot topic. Currently investigating this issue , I currently was running a PollTime of 10s which might be too fast. I recommend increasing that time. 60s => 60000ms  should be good. 
 
 Utilizing proxies is another option to stop the posibility of getting banned. 
 
