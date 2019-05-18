@@ -1,6 +1,6 @@
-# Hot Topic/Box Lunch Funko Monitor
+# Hot Topic Funko Monitor
 
-Notify user using discord webhooks to let you know of the recent drops and restocks on HotTopic.com / BoxLunch.com.
+Notify user using discord webhooks to let you know of the recent drops and restocks on HotTopic.com .
 
 ### Discord  <img src="https://www.shareicon.net/data/16x16/2017/06/21/887435_logo_512x512.png">
 Feel free to join the discord server if you have any suggestions, questions or need help! <br>
