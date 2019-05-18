@@ -12,6 +12,12 @@ Due to the software still being tested. I was just banned from Hot topic. Curren
 
 Utilizing proxies is another option to stop the posibility of getting banned. 
 
+This can be found in the config.json file.
+
+```
+"pollTime": 10000, => "pollTime": 60000,
+```
+
 
 ### Installation
 
