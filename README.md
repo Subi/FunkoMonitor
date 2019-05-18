@@ -1,10 +1,25 @@
 # Hot Topic Funko Monitor
 
+
+### Updates
+
+
+```
+ [x] Test PollTimes on HotTopic.com 
+ [ ] Implement BoxLunch.com
+
+```
+
+
 Notifies users via discord of the latest funko releases and restocks on HotTopic.com
 
 ### Discord  <img src="https://www.shareicon.net/data/16x16/2017/06/21/887435_logo_512x512.png">
 Feel free to join the discord server if you have any suggestions, questions or need help! <br>
 https://discord.gg/p4jWcxS
+
+
+
+
 
 
 ### Disclaimer 
