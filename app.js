@@ -10,7 +10,7 @@ mongoose.connect('mongodb://localhost:27017/Stock', {useNewUrlParser:true})
 
 let mainWindow;  
  
-const creatwWindow = () => {
+const createWindow = () => {
         mainWindow = new BrowserWindow({
         frame:false,
         width:450 , 
@@ -38,4 +38,4 @@ ipcMain.on('stop',()=>{
     mainWindow.webContents.send('update',"Stopping Monitor...");
 })
 
-app.on('ready', creatwWindow);
+app.on('ready', createWindow);
